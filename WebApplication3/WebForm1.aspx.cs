@@ -42,7 +42,7 @@ namespace WebApplication3
 
         protected void GridView2_RowEditing(object sender, GridViewEditEventArgs e)
         {
-            Response.Write("EDITING");
+            Response.Write("EDITED");
         }
 
         protected void GridView2_RowUpdating(object sender, GridViewUpdateEventArgs e)
